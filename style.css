@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    padding-left: 850px;
+    padding-top: 400px;
+    flex-direction: column;
+}
+.d1{
+    background-color: red;
+    width: 65px;
+    height: 20px;
+    border-radius: 10px;
+    animation-name: j1;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0.4s;
+    animation-timing-function: ease-in-out;
+}
+.d2{
+    background-color: rgb(61, 61, 213);
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+    animation-name: j2;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+   
+}
+.d3{
+    background-color: yellow;
+    width: 55px;
+    height: 20px;
+    border-radius: 10px;
+    animation-name: j2;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite ;
+    animation-direction: alternate;
+    animation-delay: 0.4s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes j1{
+    0%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: 160px;
+    }
+
+}
+@keyframes j2{
+    0%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: 120px;
+    }
+
+}
+@keyframes j3{
+    0%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: 160px;
+    }
+
+}
