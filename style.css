@@ -9,7 +9,7 @@ body{
     flex-direction: column;
 }
 .d1{
-    background-color: red;
+    background-color: blue;
     width: 65px;
     height: 20px;
     border-radius: 10px;
@@ -21,7 +21,7 @@ body{
     animation-timing-function: ease-in-out;
 }
 .d2{
-    background-color: rgb(61, 61, 213);
+    background-color: yellow;
     width: 80px;
     height: 20px;
     border-radius: 10px;
@@ -33,7 +33,7 @@ body{
    
 }
 .d3{
-    background-color: yellow;
+    background-color: red;
     width: 55px;
     height: 20px;
     border-radius: 10px;
